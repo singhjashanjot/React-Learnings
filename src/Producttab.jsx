@@ -1,13 +1,19 @@
 
 import Product from "./Product.jsx"
 function Producttab() {
-    let options = ["durable", "fast", "hi-tech"];
+    let styles = {
+        display: "flex",
+        flexWrap: "wrap",
+        justifyContent : "center",
+        alignItems: "center",
+     };
     return (
-        <>
-            <Product title="phone" price={20000} features={options} />
-            <Product title="laptop" price={40000}features={options} />
-            <Product title="charger" price={2000} features={options} />
-        </>
+        <div style={styles}>
+            <Product title="Logitech MX master" indx={0} />
+            <Product title="Apple iphone 13" indx={1} />
+            <Product title="Samsung Galaxy book 3" indx={2} />
+            <Product title="Zebronics transformer" indx={3} />
+        </div>
     )
 }
 export default Producttab;
