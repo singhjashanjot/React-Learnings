@@ -4,13 +4,14 @@ import './App.css'
 import Product from "./Product.jsx"
 import Producttab from "./Producttab.jsx"
 // import MsgBox from './Msgbox.jsx'
+import Button from './Button.jsx';
 function App() {
   return (
     <>
-      {/* <MsgBox userName="jashan" textColor="blue" /> */}
-      <h2>Trending Deals | shop now</h2>
+      {/* <h2>Trending Deals | shop now</h2> */}
 
-      <Producttab />
+      {/* <Producttab /> */}
+      <Button />
     </>
   );
 
